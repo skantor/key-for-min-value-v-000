@@ -18,5 +18,8 @@ def key_for_min_value(name_hash)
       final = key
     end 
   end 
-  final
+  if name_hash == {}
+    nil 
+  else 
+    final
 end
