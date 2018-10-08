@@ -12,6 +12,7 @@ def key_for_min_value(name_hash)
       mini = num 
     end
   end 
+  final = []
   name_hash.each do |key, value|
     if value == mini
       final = key
